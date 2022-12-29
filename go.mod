@@ -10,7 +10,6 @@ require (
 	github.com/aws/aws-sdk-go-v2/config v1.1.1
 	github.com/aws/aws-sdk-go-v2/credentials v1.1.1
 	github.com/aws/aws-sdk-go-v2/service/route53 v1.1.1
-	github.com/btcsuite/btcd v0.20.1-beta
 	github.com/cespare/cp v0.1.0
 	github.com/cloudflare/cloudflare-go v0.27.0
 	github.com/consensys/gnark-crypto v0.4.1-0.20210426202927-39ac3d4b3f1f
@@ -59,7 +58,7 @@ require (
 	github.com/spf13/cobra v0.0.3
 	github.com/status-im/keycard-go v0.0.0-20190316090335-8537d3370df4
 	github.com/stretchr/testify v1.7.0
-	github.com/syndtr/goleveldb v1.0.1-0.20210305035536-64b5b1c73954
+	github.com/syndtr/goleveldb v1.0.1-0.20210819022825-2ae1ddf74ef7
 	github.com/tidwall/gjson v1.9.3
 	github.com/tklauser/go-sysconf v0.3.5 // indirect
 	github.com/tyler-smith/go-bip39 v1.0.1-0.20181017060643-dbb3b84ba2ef
