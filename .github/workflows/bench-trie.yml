@@ -75,12 +75,12 @@ jobs:
         run: |
           go install golang.org/x/perf/cmd/benchstat@latest
 
-      - uses: actions/download-artifact@v2
+      - uses: actions/download-artifact@v4.1.7
         name: Get go-ethereum artifact
         with:
           name: go-ethereum
 
-      - uses: actions/download-artifact@v2
+      - uses: actions/download-artifact@v4.1.7
         name: Get core-geth artifact
         with:
           name: core-geth
